@@ -3,7 +3,7 @@
     //padding-bottom: 5px;
     margin-top: 0;
     margin-bottom: 0;
-    color: #1e1e1e;
+    color: #3498db;
     //background-color: #e7e5e4;
     font-family: 'Gabriela', serif;
     font-size: 50px;
@@ -15,7 +15,7 @@
         
 }
 .container{
-    margin-top: 5vh !important;
+    margin-top: 10vh !important;
 }.blockquote{
   display:block;
   background: #fff;
@@ -25,19 +25,19 @@
 
   /*Font*/
   font-family: Georgia, serif;
-  font-size: 16px;
+  font-size: 25px;
   line-height: 1.2;
-  color: #666;
+  color: #3498db;
   text-align: justify;
 
   /*Borders - (Optional)*/
-  border-left: 15px solid #c76c0c;
-  border-right: 2px solid #c76c0c;
+  border-left: 15px solid #3498db;
+  border-right: 5px solid #3498db;
+    border-radius: 5px;
 
   /*Box Shadow - (Optional)*/
-  -moz-box-shadow: 2px 2px 15px #ccc;
-  -webkit-box-shadow: 2px 2px 15px #ccc;
-  box-shadow: 2px 2px 15px #ccc;
+
+  box-shadow: 2px 2px 40px #3498db;
 }
 
 .blockquote::before{
@@ -47,10 +47,17 @@
   font-family: Georgia, serif;
   font-size: 60px;
   font-weight: bold;
-  color: #999;
+  color: #3498db;
 
   /*Positioning*/
   position: absolute;
   left: 10px;
   top:5px;
+}.blockquote .author{
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+    font-size: 15px;
+    font-family: monospace ,cursive;
+    font-weight: 300;
 }
