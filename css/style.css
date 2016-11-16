@@ -37,7 +37,7 @@
 
   /*Box Shadow - (Optional)*/
 
-  box-shadow: 2px 2px 40px #3498db;
+  box-shadow: 2px 2px 40px gray;
 }
 
 .blockquote::before{
@@ -47,7 +47,7 @@
   font-family: Georgia, serif;
   font-size: 60px;
   font-weight: bold;
-  color: #3498db;
+  color: gray;
 
   /*Positioning*/
   position: absolute;

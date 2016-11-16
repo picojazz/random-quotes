@@ -21,8 +21,7 @@ $("#button").on("click",function(e){
     $(".titre").css("color",array[j]);
     var s;
     s ={
-        color : array[j],
-        boxShadow : array[j],
+        color : array[j]
 
 
     }
