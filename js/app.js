@@ -8,12 +8,17 @@ var i = 0;
     }
 $("#button").on("click",function(e){
     e.preventDefault();
+
     $(".titre").css("color : red ;");
 
     $.getJSON("http://quotes.stormconsultancy.co.uk/popular.json", function(a) {
 
-  $(".content").html(a[i].quote);
-  $(".author").html(a[i].author);
+    var quote = a[i].quote;
+    var author= a[i].author;
+
+  $(".content").html(quote);
+  $(".author").html(author);
+  $(".tweet ").attr("href","https://twitter.com/intent/tweet?&text="+quote+'    '+author+" ");
 
         i++;
 
@@ -33,6 +38,7 @@ $("#button").on("click",function(e){
     }
 
 });
+
 
 
 });
