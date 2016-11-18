@@ -11,10 +11,10 @@ $("#button").on("click",function(e){
 
     $(".titre").css("color : red ;");
 
-    $.getJSON("http://quotes.stormconsultancy.co.uk/popular.json", function(a) {
+    $.getJSON('https://jsonp.afeld.me/?callback=?&url=http://quotes.stormconsultancy.co.uk/random.json', function(a) {
 
-    var quote = a[i].quote;
-    var author= a[i].author;
+    var quote = a.quote;
+    var author= a.author;
 
   $(".content").html(quote);
   $(".author").html(author);
