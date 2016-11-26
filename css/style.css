@@ -1,4 +1,7 @@
-.titre{
+body{
+    background-image: url(../bg.jpg);
+}
+    .titre{
   //padding-top: 5px;
     //padding-bottom: 5px;
     margin-top: 0;
