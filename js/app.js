@@ -11,7 +11,7 @@ $("#button").on("click",function(e){
 
     $(".titre").css("color : red ;");
 
-    $.getJSON('https://jsonp.afeld.me/?callback=?&url=http://quotes.stormconsultancy.co.uk/random.json', function(a) {
+    $.getJSON('http://quotes.stormconsultancy.co.uk/random.json', function(a) {
 
     var quote = a.quote;
     var author= a.author;
