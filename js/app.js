@@ -11,12 +11,13 @@ $("#button").on("click",function(e){
 
     $(".titre").css("color : red ;");
 
-    $.getJSON('http://quotes.stormconsultancy.co.uk/random.json', function(a) {
+    $.getJSON('https://random-quote-generator.herokuapp.com/api/quotes/random', function(a) {
 
     var quote = a.quote;
     var author= a.author;
 
   $(".content").html(quote);
+
   $(".author").html(author);
   $(".tweet ").attr("href","https://twitter.com/intent/tweet?&text="+quote+'    '+author+" ");
 
