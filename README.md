@@ -1,3 +1,3 @@
 PICOJAZZ RANDOM QUOTES
 
-deploy on aspiring-jelly.surge.sh
+deploy on http://aspiring-jelly.surge.sh/
